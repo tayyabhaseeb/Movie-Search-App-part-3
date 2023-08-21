@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="style.css" rel="stylesheet" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- title -->
+    <title>Movie Search App</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Find your film</h1>
+        <h3>
+          <a href="watchlist.html" class="watchlist-link">My Watchlist</a>
+        </h3>
+      </div>
+    </header>
+    <section class="section-one">
+      <div class="input-container">
+        <i class="fa-brands fa-searchengin icon"></i>
+        <input
+          type="text"
+          class="input"
+          placeholder="Search for a movie"
+          id="input"
+        />
+
+        <button class="submitBtn" id="searchBtn">Search</button>
+      </div>
+    </section>
+    <section class="section-two">
+      <div class="section-two-container" id="section-two-container">
+        <div class="exploring-container" id="exploring">
+          <img src="images/Icon.png" class="icon-img" />
+          <h4 class="exploring-text">Start Exploring</h4>
+        </div>
+        <!-- HERE CODE COMES -->
+        <!-- <div class="movie-info-container">
+          <div class="movie-img-cont">
+            <img src="images/maze_runner.jpg" class="movie-img" />
+          </div>
+          <div class="movie-info-box">
+            <div class="child-one">
+              <h4>Blade Runner 2049</h4>
+              <img src="images/StarIcon.png" class="star-icon" />
+              <h6>8.0</h6>
+            </div>
+            <div class="child-two">
+              <p>117 min</p>
+              <p>Action, Drama, Sci-fi</p>
+              <div class="add-icon-container">
+                <img src="images/plusicon.png" />
+                <p>Watchlist</p>
+              </div>
+            </div>
+            <div class="child-three">
+              <p>
+                A blade runner must pursue and terminate four replicants who
+                stole a ship in space, and have returned to Earth to find their
+                creator.
+              </p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
